@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Nunito', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:start;
+    background-color: #00314a;
+    padding:10px;
+    width:auto;
+    height:50px;
+}
+.nav-title{
+    font-size:40px;
+    color:white;
+    margin-left:60px;
+ }
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+    padding:10px;
+    margin-left:30px;
+}
+nav a{
+    text-decoration:none;
+    font-size:25px;
+    padding:10px;
+    color:rgb(161, 161, 161);
+
+}
+.nav-links :hover{
+    color:rgb(255, 255, 255);
+    
+}
+.nav-links :active {
+    color:rgb(255, 255, 255);
+    
+}
+.nav-links :focus {
+    color:rgb(255, 255, 255);
+    
+}
+.btn{
+    width:100px;
+    height:30px;
+    color:#ffffff;
+    font-size:18px;
+    background-color:rgb(84, 219, 246);
+    border:3px solid black;
+    box-shadow: 4px 4px 1px black;
+    position:absolute;
+    top:20px;
+    right:100px;
+}
+.button-Sign{
+    display:flex;
+    justify-content:end;
+}
+
+#menu{
+  display: none;
+}
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  } 
+}
+.card{
+    width:500px;
+    height:350px;
+    margin:70px;
+    border:2px solid #d2d2d2;
+    border-radius:5px;
+    background:white;
+}
+
+.card-header{
+    background:#48c4d4;
+    height:100px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.card-body{
+    padding:30px;
+    position:relative;
+}
+
+.profile-img{
+    width:80px;
+    border-radius:50%;
+    border:4px solid white;
+    position:absolute;
+    top:-40px;
+    left:30px;
+    background:white;
+}
+
+.name{
+    margin-top:30px;
+}
+
+.icon{
+    width:15px;
+    margin-right:2px;
+}
+
+.location{
+    font-size:18px;
+}
+
+a{
+    color:#0865c2;
+}
+.card-header-edu{
+    background:#3f4445;
+    height:60px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+
+}
+.card-header-edu p{
+    font-size:26px;
+    padding:17px;
+    color:white;
+}
+.card-body-edu p{
+    font-size:20px;
+    padding:5px  40px;
+    display:block;
+
+}
+#date{
+    font-size:20px;
+    color:#7a7575;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+}
+
+.right{
+     margin-top:70px;
+     
+}
+
+.card-small{
+    width:300px;
+    border:2px solid #d2d2d2;
+    margin-bottom:90px;
+    background:white;
+}
+
+.card-header-dark{
+    background:#3f4445;
+    color:white;
+    padding:15px;
+    font-size:18px;
+}
+
+.badge{
+    background:#999;
+    border-radius:50%;
+    padding:5px 10px;
+    margin-right:10px;
+}
+
+.user{
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.avatar{
+    width:30px;
+    border-radius:50%;
+    margin-right:10px;
+}
+.actions{
+    width:25px;
+}
+.user-connections{
+    padding:10px 40px;
+    display:flex;
+    align-items:center;  
+}
+.view-more {
+    padding: 10px 40px;
+    color:#0865c2;
+    cursor:pointer;
+    border-top: 2px solid #d2d2d2;
+    text-decoration:underline;
+}
+ 
