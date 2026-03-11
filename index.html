@@ -11,7 +11,7 @@
 <body>
     <nav>
         <h1 class="nav-title">Profile</h1>
-        <label for="menu" class="menu-icon">☰</label>
+        <label class="menu-icon">☰</label>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">My Profile</a></li>
@@ -24,8 +24,8 @@
             <div class="card">
                 <div class="card-header"></div>
                 <div class="card-body">
-                    <img class="profile-img" src="img/jane-m.jpg" alt="profile">
-                    <h1 class="name">Jane Doe</h1>
+                    <img src="img/jane-m.jpg" class="profile-img">
+                    <h2>Jane Doe</h2>
                     <p class="location">
                         <img src="icons/map-marker.png" class="icon">
                         Seattle
@@ -39,12 +39,12 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header-edu">
-                    <p>Education</p>
+                <div class="card-header-dark">
+                    Education
                 </div>
-                <div class="card-body-edu">
+                <div class="card-body">
                     <p>Coding Dojo - Full Stack Bootcamp</p>
-                    <p id="date">Dec 2019 - Mar 2020</p>
+                    <p class="date">Dec 2019 - Mar 2020</p>
                     <p>Triple black belt in Python, MERN, and C#...</p>
                 </div>
             </div>
@@ -56,17 +56,24 @@
                     Connection Requests
                 </div>
                 <div class="user">
-                    <img src="img/todd-s.jpg" class="avatar">
-                    Todd E
-                    <img class="actions" src="icons/accept-circle.png">
-                    <img class="actions" src="icons/close-circle.png">
+                    <div class="user-info">
+                        <img src="img/todd-s.jpg" class="avatar">
+                        Todd E
+                    </div>
+                    <div>
+                        <img src="icons/accept-circle.png" class="actions">
+                        <img src="icons/close-circle.png" class="actions">
+                    </div>
                 </div>
-
                 <div class="user">
-                    <img src="img/phil-s.jpg" class="avatar">
-                    Phil K
-                    <img class="actions" src="icons/accept-circle.png">
-                    <img class="actions" src="icons/close-circle.png">
+                    <div class="user-info">
+                        <img src="img/phil-s.jpg" class="avatar">
+                        Phil K
+                    </div>
+                    <div>
+                        <img src="icons/accept-circle.png" class="actions">
+                        <img src="icons/close-circle.png" class="actions">
+                    </div>
                 </div>
             </div>
             <div class="card-small">
@@ -74,16 +81,26 @@
                     <span class="badge">500+</span>
                     Your Connections
                 </div>
-                <div class="user-connections"><img src="img/anne-s.jpg" class="avatar"> Anne J</div>
-                <div class="user-connections"><img src="img/adrien-s.jpg" class="avatar"> Adrien D</div>
-                <div class="user-connections"><img src="img/alayne-s.jpg" class="avatar"> Alayne T</div>
-                <div class="user-connections"><img src="img/arry-s.jpg" class="avatar"> Arry Y</div>
+                <div class="user-connections">
+                    <img src="img/adrien-s.jpg" class="avatar">
+                    Adrien D
+                </div>
+                <div class="user-connections">
+                    <img src="img/anne-s.jpg" class="avatar">
+                    Anne J
+                </div>
+                <div class="user-connections">
+                    <img src="img/alayne-s.jpg" class="avatar">
+                    Alayne T
+                </div>
+                <div class="user-connections">
+                    <img src="img/arry-s.jpg" class="avatar">
+                    Arry Y
+                </div>
                 <p class="view-more">View More</p>
             </div>
         </div>
-
     </div>
-
 
 </body>
 
